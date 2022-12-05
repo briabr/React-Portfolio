@@ -1,5 +1,5 @@
-import img1 from '../../../public/assets/images/astrologica.png'
-import img2 from '../../../public/assets/images/safeMed.png'
+import img1 from '../../assets/images/astrologica-ss.png'
+import img2 from '../../assets/images/safemed.png'
 
 const projectList = [
     {
