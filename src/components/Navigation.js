@@ -1,25 +1,51 @@
 import React from "react";
 
-export default function Navigation(props) {
-	const { currentTab, setCurrentTab } = props;
+// We declare an object called styles that will contain a few objects for card and heading styles
+// Notice that each key lists CSS styles in camel case
+// const styles = {
+//   card: {
+//     margin: 20,
+//     background: '#e8eaf6',
+//   },
+//   heading: {
+//     background: '#9a74db',
+//     minHeight: 50,
+//     lineHeight: 3.5,
+//     fontSize: '1.2rem',
+//     color: 'white',
+//     padding: '0 20px',
+//   },
+// };
 
-	return (
-		<nav>
-			<ul className="flex-row mobile-view">
-				<li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("about")}>About</span>
-				</li>
-				<li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
-				</li>
-				<li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("contact")}>Contact</span>
-				</li>
-				<li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("resume")}>Resume</span>
-				</li>
-			</ul>
-		</nav>
-	);
+// In Navbar, we can assign a style from an object by using curly braces
+function Navbar() {
+  return (
+  
+	<nav>
+          <ul>
+            <li>
+              <a href="#About me">About me</a>
+            </li>
+            <li>
+              <a href="#Work">Work</a>
+            </li>
+            <li>
+              <a href="#Contact me">Contact me</a>
+            </li>
+            <li>
+              <a href="Resume">Resume</a>
+            </li>
+          </ul>
+        </nav>
+  );
 }
+
+export default Navbar;
+
+
+
+
+
+
+
 

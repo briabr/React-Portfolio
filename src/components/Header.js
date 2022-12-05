@@ -1,24 +1,14 @@
 import React from "react";
-import Navigation from "./Navigation";
+import Navbar from "./Navigation";
+// import "../styles/Header";
 
-export default function Header(props) {
-	const { currentTab, setCurrentTab } = props;
-
-	return (
-		<header>
-			<div>
-				<h2>Bria' React Portfolio</h2>
-			</div>
-			<div>
-				<Navigation
-					currentTab={currentTab}
-					setCurrentTab={setCurrentTab}
-				></Navigation>
-			</div>
-		</header>
-	);
+export default function Header() {
+  return (
+    <header>
+      <div>
+        <h2>Bria' React Portfolio</h2>
+        <Navbar></Navbar>
+      </div>
+    </header>
+  );
 }
-
-
-
-
