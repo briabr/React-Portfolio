@@ -16,7 +16,7 @@ import Header from './components/Header';
 import Project from './components/project/Project';
 // import Contact from './components/Contact';
 import Footer from './components/Footer'
-
+import Experience from './components/workExperience'
 
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
@@ -24,8 +24,10 @@ function App() {
   return (
     <div>
       <Header />
+      <Experience />
 \     <Project />
       <Footer />
+
     </div>
   );
 }
