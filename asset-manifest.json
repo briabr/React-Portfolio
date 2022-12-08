@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.03dc981b.css",
+    "main.js": "/react-portfolio/static/js/main.e68b84a7.js",
+    "static/media/astrologica-ss.png": "/react-portfolio/static/media/astrologica-ss.798d5c181ef565cbf863.png",
+    "static/media/safemed.png": "/react-portfolio/static/media/safemed.b036b6216cde5b7aa12e.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.03dc981b.css.map": "/react-portfolio/static/css/main.03dc981b.css.map",
+    "main.e68b84a7.js.map": "/react-portfolio/static/js/main.e68b84a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03dc981b.css",
+    "static/js/main.e68b84a7.js"
+  ]
+}
