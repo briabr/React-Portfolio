@@ -27,4 +27,30 @@ const projectList = [
         image_source: img2
     }
 ]
+
+// return (
+//     <>
+//     <div>
+//       {/* 👇 show image */}
+//       <img src={img1} alt="Trees" height="200" />
+//       <img src={img2} alt="Trees" height="200" />
+//       <br />
+      
+//     </div>
+//     </>
+//   );
+
+// return (
+//     <>
+
+
+//     <div id='parent_div'>
+//         <div id='name'>{name}</div>
+//         <div id='projectList_tech'>{tech}</div>
+//         <div id='work_duration'>{description}</div>
+//         <div id='work_experience'>{image_source}</div>
+//     </div>
+//     </>
+//   )
+// }
 export default projectList

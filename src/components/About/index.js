@@ -2,15 +2,15 @@ import React from "react";
 import profileImage from "../../assets/images/Headshot.jpg";
 function About() {
   return (
-    <section id="about-me" className="my-5 intro">
+    <section id="aboutMe" className="intro">
       <div class="flex-row">
         <h1 id="about" className="section-title primary-border">
           About Me
         </h1>
       </div>
       <div className="flex-row">
-        <div class="intro-info">
-          <div class="intro-img">
+        <div class="introInfo">
+          <div class="introImg">
             <img src={profileImage} style={{ width: "50%" }} alt="profile" />
           </div>
           <p>
