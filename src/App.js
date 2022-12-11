@@ -6,7 +6,7 @@ import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
 import { Helmet } from "react-helmet";
-import "/Users/lilybro/react-portfolio/src/App.js";
+// import "/Users/lilybro/react-portfolio/src/App.js";
 
 function App() {
   const [currentTab, handleTabChange] = useState("about");
