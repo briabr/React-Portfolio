@@ -9,7 +9,7 @@ const projectList = [
         The application will help the the user narrow down the astrological events to show the ones that are closest to them. 
         The application will also account for users current whereabouts to display accurate information relevant to them. 
         We learned a lot from this project particularly: writting functions, using APIs data, using CSS framework other than bootstrap, html and most importantly working with branches in GitHub.`,
-        image_source: img1 
+        image_source: img1
 
     },
     {
