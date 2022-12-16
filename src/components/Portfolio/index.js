@@ -90,7 +90,7 @@ function Portfolio() {
               <a href="https://nameless-falls-66947.herokuapp.com/"> </a>
             </div>
             <div className="project-text">
-              <h4>safeMed</h4>
+              <h4>TravelX</h4>
               <p>
                 TravelX was created to assist the user with a busy lifestyle posts and keep
                 track of their trips whether it's a vacation, a business trip,
