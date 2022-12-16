@@ -29,21 +29,18 @@ function Portfolio() {
             <div className="project-text">
               <h4>safeMed</h4>
               <p>
-                This application is here to help transform technology in the
+                This application was created to help transform technology in the
                 healthcare field. safeMed is a unqiue Electronic Medication
                 Admin Record database application that will help increase the
                 productivty and performance of healthcare workers such as
                 Nurses, Medical Doctors, and Pharmacist while working safely to
-                manage patient medications. Our application provides a safe and
+                manage patient medications. The application provides a safe and
                 secure collaboration between interdisciplinary teams within
                 facilities eg. Hospitals, Nursing Homes, and Outpatient. Some of
                 the technologies used to build safeMed include: Javascript,
                 Handlebars, Node.js, Express, and more. Our goal is to continue
                 to advance the features in technology in our application through
-                updates in order to create the best user experience. safeMed is
-                the future of eMAR! Our goal is help medical professionals spend
-                more time with patients and less time dealing with outdated
-                technology.{" "}
+                updates in order to create the best user experience.{" "}
               </p>
             </div>
           </div>
@@ -70,10 +67,40 @@ function Portfolio() {
                 application will help the the user narrow down the astrological
                 events to show the ones that are closest to them. The
                 application will also account for users current whereabouts to
-                display accurate information relevant to them. We learned a lot
-                from this project particularly: writting functions, using APIs
-                data, using CSS framework other than bootstrap, html and most
-                importantly working with branches in GitHub.{" "}
+                display accurate information relevant to them.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="project">
+          <div className="project-info">
+            <div className="project-img">
+              <a href="https://github.com/inidhi99/travelX">
+                {" "}
+                <img
+                  src={safeMed}
+                  className="my-2"
+                  style={{ width: "80%" }}
+                  alt="safeMed"
+                />
+              </a>
+              <p>This is the link to deployed application:</p>
+              <p> deployedUrl: </p>
+              <a href="https://nameless-falls-66947.herokuapp.com/"> </a>
+            </div>
+            <div className="project-text">
+              <h4>safeMed</h4>
+              <p>
+                TravelX was created to assist the user with a busy lifestyle posts and keep
+                track of their trips whether it's a vacation, a business trip,
+                or a quick weekend getaway. the goal was to provide a one-stop
+                shop for users to meet and experience trips together, possibly
+                making a plan for a future trip. The application also provides a
+                user-to-user sharing experience within the app via photos. The
+                users can also leave reviews on their personal profiles for
+                other customers. Other features of the application include
+                suggestions for things to do in the area where a user is
+                currently staying.{" "}
               </p>
             </div>
           </div>
