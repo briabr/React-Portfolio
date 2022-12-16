@@ -1,6 +1,7 @@
 import React from "react";
 import astrologica from "../../assets/images/astrologica-ss.png";
 import safeMed from "../../assets/images/safemed.png";
+import travelX from "../../assets/images/TravelX.png"
 
 function Portfolio() {
   return (
@@ -54,7 +55,7 @@ function Portfolio() {
                 <img
                   src={astrologica}
                   className="my-2"
-                  style={{ width: "80%" }}
+                  style={{ width: "60%" }}
                   alt="Astrologica"
                 />
               </a>
@@ -78,10 +79,10 @@ function Portfolio() {
               <a href="https://github.com/inidhi99/travelX">
                 {" "}
                 <img
-                  src={safeMed}
+                  src={travelX}
                   className="my-2"
-                  style={{ width: "80%" }}
-                  alt="safeMed"
+                  style={{ width: "60%" }}
+                  alt="travelX"
                 />
               </a>
               <p>This is the link to deployed application:</p>
