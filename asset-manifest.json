@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c2cab247.css",
-    "main.js": "/React-Portfolio/static/js/main.5e044c4b.js",
+    "main.js": "/React-Portfolio/static/js/main.f578398d.js",
     "static/media/Headshot.jpg": "/React-Portfolio/static/media/Headshot.5795fa87f995cb74f839.jpg",
     "static/media/astrologica-ss1.png": "/React-Portfolio/static/media/astrologica-ss1.d79d6172ec7da32d7754.png",
     "static/media/safemed1.png": "/React-Portfolio/static/media/safemed1.1b25e197e70a698f1562.png",
     "index.html": "/React-Portfolio/index.html",
     "main.c2cab247.css.map": "/React-Portfolio/static/css/main.c2cab247.css.map",
-    "main.5e044c4b.js.map": "/React-Portfolio/static/js/main.5e044c4b.js.map"
+    "main.f578398d.js.map": "/React-Portfolio/static/js/main.f578398d.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.5e044c4b.js"
+    "static/js/main.f578398d.js"
   ]
 }
