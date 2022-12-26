@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c2cab247.css",
-    "main.js": "/React-Portfolio/static/js/main.ad9b46de.js",
+    "main.js": "/React-Portfolio/static/js/main.95b0c376.js",
     "static/media/Headshot.jpg": "/React-Portfolio/static/media/Headshot.5795fa87f995cb74f839.jpg",
-    "static/media/astrologica-ss.png": "/React-Portfolio/static/media/astrologica-ss.798d5c181ef565cbf863.png",
     "static/media/TravelX.png": "/React-Portfolio/static/media/TravelX.770280bb3f50a87022d4.png",
     "static/media/safemed.png": "/React-Portfolio/static/media/safemed.b036b6216cde5b7aa12e.png",
+    "static/media/astrologica-ss2.png": "/React-Portfolio/static/media/astrologica-ss2.f9c065f4122a387a0cf2.png",
     "index.html": "/React-Portfolio/index.html",
     "main.c2cab247.css.map": "/React-Portfolio/static/css/main.c2cab247.css.map",
-    "main.ad9b46de.js.map": "/React-Portfolio/static/js/main.ad9b46de.js.map"
+    "main.95b0c376.js.map": "/React-Portfolio/static/js/main.95b0c376.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.ad9b46de.js"
+    "static/js/main.95b0c376.js"
   ]
 }
