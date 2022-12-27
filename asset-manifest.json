@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c2cab247.css",
-    "main.js": "/React-Portfolio/static/js/main.c56475ec.js",
+    "main.js": "/React-Portfolio/static/js/main.21d9015b.js",
     "static/media/Headshot.jpg": "/React-Portfolio/static/media/Headshot.5795fa87f995cb74f839.jpg",
     "static/media/astrologica-ss4.png": "/React-Portfolio/static/media/astrologica-ss4.be46fac7446979fd854b.png",
     "index.html": "/React-Portfolio/index.html",
     "main.c2cab247.css.map": "/React-Portfolio/static/css/main.c2cab247.css.map",
-    "main.c56475ec.js.map": "/React-Portfolio/static/js/main.c56475ec.js.map"
+    "main.21d9015b.js.map": "/React-Portfolio/static/js/main.21d9015b.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.c56475ec.js"
+    "static/js/main.21d9015b.js"
   ]
 }
