@@ -113,58 +113,68 @@
 
 // export default Portfolio;
 
-
-import React from 'react'
-import ProjectCard from '../../components/projectCard'
-import astrologica from "../../assets/images/astrologica-ss.png";
-import safeMed from "../../assets/images/safemed.png";
-import travelX from "../../assets/images/TravelX.png"
+import React from "react";
+import ProjectCard from "../projectCard/projectCard";
+import astrologica from "../../assets/images/astrologica-ss4.png";
+import safeMed from "../../assets/images/safemed6.png";
+import travelX from "../../assets/images/TravelX7.png";
 // import teamProfileGeneratorImg from '../../assets/img/projects/team-profile-generator.png'
-
 
 const Work = () => {
   const projects = [
     {
-      name: 'iEatz',
+      name: "Astrologica",
       image: astrologica,
-      github: 'https://cwyan2483.github.io/astrologica/',
+      github: "https://cwyan2483.github.io/astrologica/",
       deployed: false,
-      deployedUrl: null
+      deployedUrl: null,
+      description: ` The application will help the the user narrow down the astrological events to show the ones that are closest to them. The application will also account for users current whereabouts to
+      display accurate information relevant to them.`,
     },
     {
-      name: 'TravelX',
+      name: "TravelX",
       image: travelX,
-      github: 'git@github.com:inidhi99/travelX.git',
+      github: "git@github.com:inidhi99/travelX.git",
       deployed: true,
-      deployedUrl: 'https://nameless-falls-66947.herokuapp.com/'
+      deployedUrl: "https://nameless-falls-66947.herokuapp.com/",
+      description: `TravelX was created to assist the user with a busy lifestyle posts and keep
+      track of their trips whether it's a vacation, a business trip, or a quick weekend getaway.`,
     },
     {
-      name: 'safeMed',
+      name: "safeMed",
       image: safeMed,
-      github: 'https://github.com/rsenecal/Project2-safeMed.git',
+      github: "https://github.com/rsenecal/Project2-safeMed.git",
       deployed: true,
-      deployedUrl: 'https://project2-safe-med.herokuapp.com/'
+      deployedUrl: "https://project2-safe-med.herokuapp.com/",
+      description:`safeMed is a unqiue Electronic Medication Admin Record database application that will help increase the
+      productivty and performance of healthcare workers such as Nurses, Medical Doctors, and Pharmacist while working safely to
+      manage patient medications.`
     },
-  ]
-
+  ];
 
   return (
     <main id="work">
-      <h1 className="lg-heading">My <span className="text-secondary">Work</span></h1>
+      <h1 className="lg-heading">
+        My <span className="text-secondary">Work</span>
+      </h1>
       <h2 className="sm-heading">Check out some of my projects...</h2>
       <section className="projects">
         {projects.map((project, idx) => {
-          return <ProjectCard 
-            key={idx} 
-            name={project.name}
-            image={project.image}
-            github={project.github}
-            deployed={project.deployed}
-            deployedUrl={project.deployedUrl} />
-          })}
+          return (
+            <ProjectCard
+              key={idx}
+              name={project.name}
+              image={project.image}
+              github={project.github}
+              deployed={project.deployed}
+              deployedUrl={project.deployedUrl}
+              description={project.description}
+            />
+          );
+        })}
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;

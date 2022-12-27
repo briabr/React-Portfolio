@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectCard = ({ name, image, github, deployed, deployedUrl }) => {
+const ProjectCard = ({ name, image, github, deployed, deployedUrl,description }) => {
   const hide = {
     display: 'none'
   }
