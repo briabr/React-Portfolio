@@ -128,8 +128,8 @@ const Work = () => {
       github: "https://cwyan2483.github.io/astrologica/",
       deployed: false,
       deployedUrl: null,
-      description: ` The application will help the the user narrow down the astrological events to show the ones that are closest to them. The application will also account for users current whereabouts to
-      display accurate information relevant to them.`,
+      description: `The application will help the the user narrow down the astrological events showing the ones closest to them and account their current whereabouts to
+      display accurate information relevant to them`,
     },
     {
       name: "TravelX",
@@ -146,9 +146,7 @@ const Work = () => {
       github: "https://github.com/rsenecal/Project2-safeMed.git",
       deployed: true,
       deployedUrl: "https://project2-safe-med.herokuapp.com/",
-      description:`safeMed is a unqiue Electronic Medication Admin Record database application that will help increase the
-      productivty and performance of healthcare workers such as Nurses, Medical Doctors, and Pharmacist while working safely to
-      manage patient medications.`
+      description:`safeMed is a unqiue Electronic Medication Admin Record database application managing patient medications.`
     },
   ];
 

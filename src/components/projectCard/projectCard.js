@@ -12,6 +12,7 @@ const ProjectCard = ({ name, image, github, deployed, deployedUrl,description })
       </a>
       <a style={!deployed ? hide: {}} href={deployedUrl} className="btn" target="_blank"> <i className="fas fa-eye"></i> Project </a>
       <a href={github} className="btn" target="_blank"> <i className="fab fa-github"></i> GitHub </a>
+      <p>{description}</p>
     </div>
   )
 }
