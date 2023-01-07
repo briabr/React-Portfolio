@@ -1,0 +1,60 @@
+$primary-color: #1a1b1e;
+$secondary-color: #82aaff;
+// $show-home-image: true;
+// $home-image-mobile: url(./src/assets/img/kandinsky_background.jpg);
+// $home-image: url(./src/assets/img/kandinsky_background_right.jpg);
+$background-opacity: 0.3;
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+@mixin background {
+  &#bg-img {
+    // background: $home-image-mobile;
+    background-attachment: fixed;
+    background-size: cover;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      min-height: calc(100vh - 2rem);
+      z-index: -1;
+      background: rgba($primary-color, $background-opacity);
+    }
+  }
+  // @if $show-home-image {
+  // }
+}
+@mixin background-Lg {
+  &#bg-img {
+    // background: $home-image;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+// Media Query Mixins
+@mixin mediaSm {
+  @media screen and (max-width: 450px) {
+    @content;
+  }
+}
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1180px) {
+    @content;
+  }
+}
+@mixin mediaXl {
+  @media screen and (min-width: 1181px) {
+    @content;
+  }
+}
