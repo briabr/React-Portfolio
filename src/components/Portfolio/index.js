@@ -125,16 +125,16 @@ const Work = () => {
     {
       name: "Astrologica",
       image: astrologica,
-      github: "https://cwyan2483.github.io/astrologica/",
+      github: "https://github.com/briabr/astrologica",
       deployed: false,
-      deployedUrl: null,
+      deployedUrl: "https://cwyan2483.github.io/astrologica/",
       description: `The application will help the the user narrow down the astrological events showing the ones closest to them and account their current whereabouts to
       display accurate information relevant to them`,
     },
     {
       name: "TravelX",
       image: travelX,
-      github: "git@github.com:inidhi99/travelX.git",
+      github: "https://github.com/briabr/travelX",
       deployed: true,
       deployedUrl: "https://nameless-falls-66947.herokuapp.com/",
       description: `TravelX was created to assist the user with a busy lifestyle posts and keep

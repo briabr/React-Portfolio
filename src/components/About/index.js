@@ -16,6 +16,12 @@ function About() {
           <p>
           Full Stack Web and Fintech Developer with a lifelong dedication to learning. Excellent team member, leader, and effective at combining creativity and problem-solving to develop user-friendly applications. 
           </p>
+          <p>
+          <li>Front-End: HTML5, CSS, Bootstrap, JavaScript, jQuery, React, version control/Git,responsive design</li>
+          <li>Back-End: Node.js, Express.js, MySQL, NoSQL, Sequelize ORM, MongoDB</li> 
+          <li>Concepts: APIs, REST, MVC, JSON</li>
+          <li>Tools: Git, Github, GitLab, Heroku, Pandas, Jupyter, VS Code, Excel, R programming, Minitab, Eviews, and Python</li>
+          </p>
         </div>
       </div>
     </section>
