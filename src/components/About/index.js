@@ -14,7 +14,7 @@ function About() {
             <img src={profileImage} style={{ width: "50%" }} alt="profile" />
           </div>
           <p>
-            Hello, my name is Bria Filali. I am currently living in New York City.
+          Full Stack Web and Fintech Developer with a lifelong dedication to learning. Excellent team member, leader, and effective at combining creativity and problem-solving to develop user-friendly applications. 
           </p>
         </div>
       </div>
