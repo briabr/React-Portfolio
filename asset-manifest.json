@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c2cab247.css",
-    "main.js": "/React-Portfolio/static/js/main.6af67c07.js",
+    "main.js": "/React-Portfolio/static/js/main.bcd332a1.js",
     "static/media/Headshot.jpg": "/React-Portfolio/static/media/Headshot.5795fa87f995cb74f839.jpg",
     "static/media/Portfolio-resume.pdf": "/React-Portfolio/static/media/Portfolio-resume.729e6971053962565a7c.pdf",
     "static/media/astrologica-ss4.png": "/React-Portfolio/static/media/astrologica-ss4.be46fac7446979fd854b.png",
     "index.html": "/React-Portfolio/index.html",
     "main.c2cab247.css.map": "/React-Portfolio/static/css/main.c2cab247.css.map",
-    "main.6af67c07.js.map": "/React-Portfolio/static/js/main.6af67c07.js.map"
+    "main.bcd332a1.js.map": "/React-Portfolio/static/js/main.bcd332a1.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.6af67c07.js"
+    "static/js/main.bcd332a1.js"
   ]
 }
