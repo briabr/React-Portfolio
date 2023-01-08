@@ -1,3 +1,67 @@
+import React from "react";
+import ProjectCard from "../projectCard/projectCard";
+import astrologica from "../../assets/images/astrologica-ss4.png";
+import safeMed from "../../assets/images/safemed6.png";
+import travelX from "../../assets/images/TravelX7.png";
+// import teamProfileGeneratorImg from '../../assets/img/projects/team-profile-generator.png'
+
+const Work = () => {
+  const projects = [
+    {
+      name: "Astrologica",
+      image: astrologica,
+      github: "https://github.com/briabr/astrologica",
+      deployed: true,
+      deployedUrl: "https://cwyan2483.github.io/astrologica/",
+      description: `The application will help the the user narrow down the astrological events showing the ones closest to them and account their current whereabouts to
+      display accurate information relevant to them`,
+    },
+    {
+      name: "TravelX",
+      image: travelX,
+      github: "https://github.com/briabr/travelX",
+      deployed: true,
+      deployedUrl: "https://nameless-falls-66947.herokuapp.com/",
+      description: `TravelX was created to assist the user with a busy lifestyle posts and keep
+      track of their trips whether it's a vacation, a business trip, or a quick weekend getaway.`,
+    },
+    {
+      name: "safeMed",
+      image: safeMed,
+      github: "https://github.com/rsenecal/Project2-safeMed.git",
+      deployed: true,
+      deployedUrl: "https://project2-safe-med.herokuapp.com/",
+      description:`safeMed is a unqiue Electronic Medication Admin Record database application managing patient medications.`
+    },
+  ];
+
+  return (
+    <main id="work">
+      <h1 className="lg-heading">
+        My <span className="text-secondary">Work</span>
+      </h1>
+      <h2 className="sm-heading">Check out some of my projects...</h2>
+      <section className="projects">
+        {projects.map((project, idx) => {
+          return (
+            <ProjectCard
+              key={idx}
+              name={project.name}
+              image={project.image}
+              github={project.github}
+              deployed={project.deployed}
+              deployedUrl={project.deployedUrl}
+              description={project.description}
+            />
+          );
+        })}
+      </section>
+    </main>
+  );
+};
+
+export default Work;
+
 // import React from "react";
 // import astrologica from "../../assets/images/astrologica-ss.png";
 // import safeMed from "../../assets/images/safemed.png";
@@ -112,67 +176,3 @@
 // }
 
 // export default Portfolio;
-
-import React from "react";
-import ProjectCard from "../projectCard/projectCard";
-import astrologica from "../../assets/images/astrologica-ss4.png";
-import safeMed from "../../assets/images/safemed6.png";
-import travelX from "../../assets/images/TravelX7.png";
-// import teamProfileGeneratorImg from '../../assets/img/projects/team-profile-generator.png'
-
-const Work = () => {
-  const projects = [
-    {
-      name: "Astrologica",
-      image: astrologica,
-      github: "https://github.com/briabr/astrologica",
-      deployed: false,
-      deployedUrl: "https://cwyan2483.github.io/astrologica/",
-      description: `The application will help the the user narrow down the astrological events showing the ones closest to them and account their current whereabouts to
-      display accurate information relevant to them`,
-    },
-    {
-      name: "TravelX",
-      image: travelX,
-      github: "https://github.com/briabr/travelX",
-      deployed: true,
-      deployedUrl: "https://nameless-falls-66947.herokuapp.com/",
-      description: `TravelX was created to assist the user with a busy lifestyle posts and keep
-      track of their trips whether it's a vacation, a business trip, or a quick weekend getaway.`,
-    },
-    {
-      name: "safeMed",
-      image: safeMed,
-      github: "https://github.com/rsenecal/Project2-safeMed.git",
-      deployed: true,
-      deployedUrl: "https://project2-safe-med.herokuapp.com/",
-      description:`safeMed is a unqiue Electronic Medication Admin Record database application managing patient medications.`
-    },
-  ];
-
-  return (
-    <main id="work">
-      <h1 className="lg-heading">
-        My <span className="text-secondary">Work</span>
-      </h1>
-      <h2 className="sm-heading">Check out some of my projects...</h2>
-      <section className="projects">
-        {projects.map((project, idx) => {
-          return (
-            <ProjectCard
-              key={idx}
-              name={project.name}
-              image={project.image}
-              github={project.github}
-              deployed={project.deployed}
-              deployedUrl={project.deployedUrl}
-              description={project.description}
-            />
-          );
-        })}
-      </section>
-    </main>
-  );
-};
-
-export default Work;

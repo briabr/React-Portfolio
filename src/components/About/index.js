@@ -28,6 +28,27 @@ function About() {
   );
 }
 
+/* <menu id="skills">
+        <div class="skills-title">
+          <h1>Skills</h1>
+        </div>
+        <img class="html" src="./assets/images/skills-images/html5.png" alt="HTML5">
+        <img class="css" src="./assets/images/skills-images/css3.png" alt="CSS3">
+        <img class="JavaScript" src="./assets/images/skills-images/JS.png" alt="JavaScript">
+        <img class="jQuery" src="./assets/images/skills-images/jQuery.png" alt="jQuery">
+        <img class="sass" src="./assets/images/skills-images/sass.png" alt="SASS">
+        <img class="bootstrap" src="./assets/images/skills-images/bootstrap.png" alt="Bootstrap">
+        <img class="nodeJS" src="./assets/images/skills-images/nodeJS.png" alt="NodeJS">
+        <img class="expressJS" src="./assets/images/skills-images/express.png" alt="ExpressJS">
+        <img class="MySQL" src="./assets/images/skills-images/MySQL.jpg" alt="MySQL">
+        <img class="mongodb" src="./assets/images/skills-images/mongodb.png" alt="mongodb">
+        <img class="React" src="./assets/images/skills-images/React.png" alt="React">
+        <img class="npm" src="./assets/images/skills-images/npm_logo.png" alt="npm Logo">
+        <img class="mern" src="./assets/images/skills-images/mern.jpg" alt="MERN">
+        <img class="mern" src="./assets/images/skills-images/github-logo.png" alt="GitHub Logo">
+        <img class="firebase" src="./assets/images/skills-images/firebase.png" alt="Firebase">
+      </menu> */
+
 
 
 // import React from 'react'
